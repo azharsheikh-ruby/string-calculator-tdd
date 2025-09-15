@@ -5,4 +5,7 @@ RSpec.describe StringCalculator do
   let(:calc) { described_class.new }
 
   it { expect(calc.add("")).to eq 0 }
+
+  it { expect(calc.add("1")).to eq 1 }
+
 end
