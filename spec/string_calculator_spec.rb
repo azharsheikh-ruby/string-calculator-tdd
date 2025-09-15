@@ -14,4 +14,6 @@ RSpec.describe StringCalculator do
 
   it { expect(calc.add("1\n2,3")).to eq 6 }
 
+  it { expect(calc.add("//;\n1;2")).to eq 3 }
+
 end
