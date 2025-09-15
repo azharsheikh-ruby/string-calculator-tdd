@@ -10,4 +10,6 @@ RSpec.describe StringCalculator do
 
   it { expect(calc.add("1,5")).to eq 6 }
 
+  it { expect(calc.add("1,2,3,4")).to eq 10 }
+
 end
